@@ -1,3 +1,4 @@
+from azure.identity import DefaultAzureCredential, get_bearer_token_provider
 import streamlit as st
 from azure.cosmos import CosmosClient
 import openai
